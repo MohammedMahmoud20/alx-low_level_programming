@@ -1,15 +1,15 @@
-#include<stdio>
+#include <stdio.h>
+
 /**
- * main-entery point
+ * main - entery point
  *
+ * Description: A c printing using puts function
  *
- *
- * description-printing using puts function
- *
- * return always 0 (success)
+ * return : Always 0 (success)
 */
+
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
        	return (0);
 }
