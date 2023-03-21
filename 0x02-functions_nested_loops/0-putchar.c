@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdo.h>
+#include <main.h>
 using namespace std;
 
 int main(void)
