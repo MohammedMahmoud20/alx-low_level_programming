@@ -4,7 +4,7 @@
  *set_bit - setting bit in the given  index
  *@n: the int number
  *@nidex: the given index
- *@f:the number to be shifted
+ *return: 1 if it worked, -1 if there is an error
 */
 int set_bit(unsigned long int *n, unsigned int index)
 {
@@ -12,7 +12,5 @@ int set_bit(unsigned long int *n, unsigned int index)
     {
         return (-1);
     }
-    int f=1;
-    f=f<<index;
-    return (*n & f)|(~1 & f);
+    return (!!(*n |= 1L << index));
 }
